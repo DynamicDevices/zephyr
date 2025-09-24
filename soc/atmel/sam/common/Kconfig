@@ -64,7 +64,7 @@ config SOC_ATMEL_SAM_PLLA_MULA
 config SOC_ATMEL_SAM_PLLA_DIVA
 	int "PLL DIVA"
 	default 1
-	range 1 $(UINT8_MAX)
+	range 1 255
 	help
 	  This is the divider (DIVA) used by the PLL.
 	  The processor clock is (MAINCK * (MULA + 1) / DIVA).

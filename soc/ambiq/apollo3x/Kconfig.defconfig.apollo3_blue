@@ -16,10 +16,10 @@ config BT_BUF_ACL_TX_COUNT
 	default 4
 
 config BT_BUF_CMD_TX_SIZE
-	default $(UINT8_MAX)
+	default 255
 
 config BT_BUF_EVT_RX_SIZE
-	default $(UINT8_MAX)
+	default 255
 
 config BT_BUF_ACL_TX_SIZE
 	default 251

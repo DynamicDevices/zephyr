@@ -16,6 +16,7 @@ family:
     socs:
     - name: mcxc141
     - name: mcxc142
+    - name: mcxc143
     - name: mcxc242
     - name: mcxc444
   - name: mcxa
@@ -47,6 +48,7 @@ runners:
         - mcxc141
       - qualifiers:
         - mcxc142
+        - mcxc143
       - qualifiers:
         - mcxc242
       - qualifiers:
@@ -75,6 +77,7 @@ runners:
         - mcxc141
       - qualifiers:
         - mcxc142
+        - mcxc143
       - qualifiers:
         - mcxc242
       - qualifiers:
